@@ -4,33 +4,40 @@
 			"name": "IndividualGDPRState__dlm",
 			"children": {
 				"nodes": [
-          {
+                    {
 						"id": "1",
-						"name": "IndividualGDPRState__dlm"
+                        "name": "IndividualGDPRState__dlm",
+                        "distance": 150
 					},
 					{
 						"id": "2",
-						"name": "ContactPointEmail__dlm"
+                        "name": "ContactPointEmail__dlm",
+                        "distance": 150
 					},
 					{
 						"id": "3",
-						"name": "Individual__dlm"
+                        "name": "Individual__dlm",
+                        "distance": 150
 					},
 					{
 						"id": "4",
-						"name": "ContactPointEmailIdentityLink__dlm"
+                        "name": "ContactPointEmailIdentityLink__dlm",
+                        "distance": 150
 					},
 					{
 						"id": "5",
-						"name": "ContactPointPhone__dlm"
+                        "name": "ContactPointPhone__dlm",
+                        "distance": 150
 					},
 					{
 						"id": "6",
-						"name": "test_results__dlm"
+                        "name": "test_results__dlm",
+                        "distance": 100
 					},
 					{
 						"id": "7",
-						"name": "IndividualIdentityLink__dlm"
+                        "name": "IndividualIdentityLink__dlm",
+                        "distance": 100
 					},
 					{
 						"id": "8",
@@ -51,247 +58,152 @@
 					{
 						"id": "12",
 						"name": "ContactPointPhoneIdentityLink__dlm"
+                    },
+                    {
+						"id": "13",
+						"name": "ContactPointPhoneIdentityLink__dlm"
 					}
 				],
 				"links": [
-          {
+                    {
+						"source": "1",
+						"target": "2",
+                        "label": "OneToOne"
+					},
+                    {
+						"source": "1",
+						"target": "4",
+						"label": "OneToOne"
+					},
+					{
 						"source": "1",
 						"target": "2",
 						"label": "OneToOne"
 					},
-          {
-						"source": "2",
-						"target": "4",
-						"label": "OneToOne"
-					},
 					{
-						"source": "4",
-						"target": "2",
-						"label": "OneToOne"
-					},
-					{
-						"source": "2",
+						"source": "1",
 						"target": "3",
 						"label": "ManyToOne"
 					},
 					{
-						"source": "3",
+						"source": "1",
 						"target": "2",
 						"label": "OneToMany"
 					},
 					{
-						"source": "5",
+						"source": "1",
 						"target": "3",
 						"label": "ManyToOne"
 					},
 					{
-						"source": "3",
+						"source": "1",
 						"target": "5",
 						"label": "OneToMany"
 					},
 					{
-						"source": "8",
+						"source": "1",
 						"target": "3",
 						"label": "OneToOne"
 					},
 					{
-						"source": "3",
+						"source": "1",
 						"target": "8",
 						"label": "OneToOne"
 					},
 					{
-						"source": "6",
+						"source": "1",
 						"target": "8",
 						"label": "OneToOne"
 					},
 					{
-						"source": "8",
+						"source": "1",
 						"target": "6",
 						"label": "OneToOne"
 					},
 					{
-						"source": "5",
+						"source": "1",
 						"target": "12",
 						"label": "OneToOne"
 					},
 					{
-						"source": "12",
+						"source": "1",
 						"target": "5",
 						"label": "OneToOne"
 					},
 					{
-						"source": "9",
+						"source": "1",
 						"target": "10",
 						"label": "ManyToOne"
 					},
 					{
-						"source": "10",
+						"source": "1",
 						"target": "9",
 						"label": "OneToMany"
 					},
 					{
-						"source": "7",
+						"source": "1",
 						"target": "10",
 						"label": "ManyToOne"
 					},
 					{
-						"source": "10",
+						"source": "1",
 						"target": "7",
 						"label": "OneToMany"
 					},
 					{
-						"source": "12",
+						"source": "1",
 						"target": "11",
 						"label": "ManyToOne"
 					},
 					{
-						"source": "11",
+						"source": "1",
 						"target": "12",
 						"label": "OneToMany"
 					},
 					{
-						"source": "11",
+						"source": "1",
 						"target": "10",
 						"label": "ManyToOne"
 					},
 					{
-						"source": "10",
+						"source": "1",
 						"target": "11",
 						"label": "OneToMany"
 					},
 					{
-						"source": "4",
+						"source": "1",
 						"target": "9",
 						"label": "ManyToOne"
 					},
 					{
-						"source": "9",
+						"source": "1",
 						"target": "4",
 						"label": "OneToMany"
 					},
 					{
-						"source": "3",
+						"source": "1",
 						"target": "7",
 						"label": "OneToOne"
 					},
 					{
-						"source": "7",
+						"source": "1",
 						"target": "3",
 						"label": "OneToOne"
 					},
 					{
-						"source": "8",
+						"source": "1",
 						"target": "10",
 						"label": "OneToMany"
 					},
 					{
-						"source": "10",
+						"source": "1",
 						"target": "8",
 						"label": "ManyToOne"
 					}
 				]
 			}
-		},
-		{
-			"id": "2",
-			"name": "ContactPointEmail__dlm"
-		},
-		{
-			"id": "3",
-			"name": "Individual__dlm"
-		},
-		{
-			"id": "4",
-			"name": "ContactPointEmailIdentityLink__dlm"
-		},
-		{
-			"id": "5",
-			"name": "ContactPointPhone__dlm"
-		},
-		{
-			"id": "6",
-			"name": "test_results__dlm"
-    },
-    {
-			"id": "7",
-			"name": "ContactPointEmail__dlm"
-		},
-		{
-			"id": "8",
-			"name": "Individual__dlm"
-		},
-		{
-			"id": "9",
-			"name": "ContactPointEmailIdentityLink__dlm"
-		},
-		{
-			"id": "10",
-			"name": "ContactPointPhone__dlm"
-		},
-		{
-			"id": "11",
-			"name": "test_results__dlm"
-    },
-    {
-			"id": "12",
-			"name": "ContactPointEmail__dlm"
-		},
-		{
-			"id": "13",
-			"name": "Individual__dlm"
-		},
-		{
-			"id": "14",
-			"name": "ContactPointEmailIdentityLink__dlm"
-		},
-		{
-			"id": "15",
-			"name": "ContactPointPhone__dlm"
-		},
-		{
-			"id": "16",
-			"name": "test_results__dlm"
-    },
-    {
-			"id": "17",
-			"name": "ContactPointEmail__dlm"
-		},
-		{
-			"id": "18",
-			"name": "Individual__dlm"
-		},
-		{
-			"id": "19",
-			"name": "ContactPointEmailIdentityLink__dlm"
-		},
-		{
-			"id": "20",
-			"name": "ContactPointPhone__dlm"
-		},
-		{
-			"id": "21",
-			"name": "test_results__dlm"
 		}
 	],
-	"links": [{
-			"source": "1",
-			"target": "2",
-			"label": "OneToOne"
-		},
-		{
-			"source": "2",
-			"target": "3",
-			"label": "OneToOne"
-		},
-		{
-			"source": "1",
-			"target": "3",
-			"label": "ManyToOne"
-    },
-    {
-			"source": "10",
-			"target": "20",
-			"label": "ManyToOne"
-		}
+	"links": [
 	]
 }

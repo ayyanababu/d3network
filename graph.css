@@ -1,0 +1,21 @@
+.link {
+    font-size: 100px;
+    color: orange;
+    margin: 50px;
+}
+
+.normalNode {
+    fill: orange;
+    stroke-width: 1;
+    stroke: red;
+}
+
+.selectedNode {
+    fill: green;
+    stroke-width: 2;
+    stroke: yellow;
+}
+
+.linkclass {
+    background-clip:content-box; /* <- key point*/
+}
